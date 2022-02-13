@@ -67,6 +67,8 @@ section {
     width: 340px;
     padding: 20px 0;
     border-bottom: 1px solid hsl(240, 5%, 91%);
+    display: grid;
+    grid-template-columns: 1fr 5%;
 }
 .faq div {
     display: flex;
@@ -84,7 +86,7 @@ section {
 }
 .p-tag {
     display:none;
-    margin-top: 100px;
+    margin-top: 10px;
     color: hsl(240, 6%, 50%);
     font-size: 12px;
 }
